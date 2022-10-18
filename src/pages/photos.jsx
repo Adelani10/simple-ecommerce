@@ -11,7 +11,7 @@ function Photos () {
     })
 
     return (
-        <article className="">
+        <article className="angry-grid">
                 {ImageElements}
         </article>
     )

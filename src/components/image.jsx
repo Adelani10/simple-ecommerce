@@ -28,24 +28,22 @@ export default function Image ({item}) {
 
     return (
         <main 
+            id = {`item-${item.id}`}
             onMouseEnter={() => setIsHovered(true)} 
             onMouseLeave={() => setIsHovered(false)} 
             className="relative"
         >
-                <article>
-                    <img src={item.path} alt="Image" />
-                </article>
+            <img src={item.path} alt="Image" className="h-full w-full" />
+            <div className="font-semibold text-3xl">
+                <button onClick={() =>  toggleFav(item.id)} 
+                        className="absolute top-5 left-5 text-red-600">
+                            {whichHeart(item)}
+                </button>
 
-                 <div className="font-semibold text-3xl">
-                    <button onClick={() =>  toggleFav(item.id)} 
-                            className="absolute top-5 left-5 text-red-600">
-                                {whichHeart(item)}
-                    </button>
-
-                    <button className="absolute top-5 right-5 text-sky-200">
-                        {whichIcon(item)}
-                    </button>
-                </div>
+                <button className="absolute top-5 right-5 text-sky-200">
+                    {whichIcon(item)}
+                </button>
+            </div>
         </main>
     )
 }

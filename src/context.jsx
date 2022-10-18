@@ -33,7 +33,6 @@ function Context (props) {
         })
     }
 
-    console.log(cart)
 
     function removeFromCart(id) {
         const newAll = cart.filter(item => {
