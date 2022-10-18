@@ -26,7 +26,7 @@ function Cart () {
 
 
     return (
-        <section className={`${cart.length > 0 ? 'space-y-8' : ''} flex flex-col`} >
+        <section className={`${cart.length > 0 ? 'space-y-8' : ''} h-full flex flex-col`} >
 
             {cart.length === 0 && <h2 className="absolute text-center font-bold text-2xl top-1/2 left-1/2 translate-x-[-50%] translate-y-[100%] font-mono">
                 Add Items 😋
