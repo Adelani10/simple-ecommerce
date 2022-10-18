@@ -9,7 +9,7 @@ export default function Image ({item}) {
 
     function whichHeart (heart) {
         if (heart.isFav){
-            return <i className="fa-solid fa-heart text-5xl"></i>
+            return <i className="fa-solid fa-heart md:text-5xl text-3xl"></i>
         }
         else if(isHovered){
             return <i className="fa-regular fa-heart"></i>
@@ -33,14 +33,14 @@ export default function Image ({item}) {
             onMouseLeave={() => setIsHovered(false)} 
             className="relative"
         >
-            <img src={item.path} alt="Image" className="h-full w-full" />
-            <div className="font-semibold text-3xl">
+            <img src={item.path} alt="Image" className="h-full w-full object-co" />
+            <div className="font-semibold md:text-4xl text-2xl">
                 <button onClick={() =>  toggleFav(item.id)} 
-                        className="absolute top-5 left-5 text-red-600">
+                        className="absolute top-2 left-2 text-red-600">
                             {whichHeart(item)}
                 </button>
 
-                <button className="absolute top-5 right-5 text-sky-200">
+                <button className="absolute top-2 right-2 text-sky-200">
                     {whichIcon(item)}
                 </button>
             </div>

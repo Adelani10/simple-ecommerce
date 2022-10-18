@@ -7,12 +7,13 @@ const imageData = [
     },
     {
         id: "2",
-        path: "/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg",
+        
+        path: "/eiliv-aceron-pu6b4yIlQF4-unsplash.jpg",
         isFav: false
     },
     {
         id: "3",
-        path: "/andy-chilton-oljL3vFlV2g-unsplash.jpg",
+        path: "/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg",
         isFav: false
     },
     {
@@ -22,7 +23,7 @@ const imageData = [
     },
     {
         id: "5",
-        path: "/eiliv-aceron-pu6b4yIlQF4-unsplash.jpg",
+        path: "/andy-chilton-oljL3vFlV2g-unsplash.jpg",
         isFav: false
     },
     {
@@ -62,17 +63,17 @@ const imageData = [
     },
     {
         id: "13",
-        path: "/jonathan-borba-xUtkfr-qBFU-unsplash.jpg",
+        path: "/faisal-khalid-1bLxgAZ2P7w-unsplash.jpg",
         isFav: false
     },
     {
         id: "14",
-        path: "/lidye-1Shk_PkNkNw-unsplash.jpg",
+        path: "/sk-CK6tjAIMJWM-unsplash.jpg",
         isFav: false
     },
     {
         id: "15",
-        path: "/faisal-khalid-1bLxgAZ2P7w-unsplash.jpg",
+        path: "/jonathan-borba-xUtkfr-qBFU-unsplash.jpg",
         isFav: false
     },
     {
@@ -82,7 +83,7 @@ const imageData = [
     },
     {
         id: "17",
-        path: "/oliver-sjostrom-cff_w0ADWIA-unsplash.jpg",
+        path: "/lidye-1Shk_PkNkNw-unsplash.jpg",
         isFav: false
     },
     {
@@ -97,12 +98,12 @@ const imageData = [
     },
     {
         id: "20",
-        path: "/sk-CK6tjAIMJWM-unsplash.jpg",
+        path: "/oliver-sjostrom-cff_w0ADWIA-unsplash.jpg",
         isFav: false
     },
     {
         id: "21",
-        path: "/sultan-abdulrazzaq-UDYjeBwFZf8-unsplash.jpg",
+        path: "/y-peyankov-nJUuFfo79wI-unsplash.jpg",
         isFav: false
     },
     {
@@ -112,7 +113,7 @@ const imageData = [
     },
     {
         id: "23",
-        path: "/y-peyankov-nJUuFfo79wI-unsplash.jpg",
+        path: "/sultan-abdulrazzaq-UDYjeBwFZf8-unsplash.jpg",
         isFav: false
     },
 ]
